@@ -1,0 +1,24 @@
+.wrapper {
+	width: 100%;
+	max-width: $wrapper-mobile;
+	margin: 0 auto;
+	padding: 0 $wrapper-padding;
+}
+
+@include min-screen( $tablet-min ) {
+	.wrapper {
+		max-width: $wrapper-tablet;
+	}
+}
+
+@include min-screen( $desktop-min ) {
+	.wrapper {
+		max-width: $wrapper-desktop;
+	}
+}
+
+@include min-screen( $wide-min ) {
+	.wrapper {
+		max-width: $wrapper-wide;
+	}
+}

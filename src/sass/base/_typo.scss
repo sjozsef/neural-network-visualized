@@ -1,0 +1,38 @@
+body {
+	 font-size: 17px;
+	 font-family: "Source Sans Pro", sans-serif;
+	 font-style: normal;
+	 font-weight: 400;
+}
+
+div {
+	 text-align: left;
+	 white-space: normal;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+
+h1 {
+	 font-size: 2.85em;
+	 line-height: 2em;
+	 text-transform: uppercase;
+	 text-align: center;
+}
+
+p {
+	 font-size: 1em;
+	 line-height: 1.421em;
+	 margin: 0px 0px 1.421em 0px;
+	 text-align: center;
+}
+
+h2 {
+	 font-size: 1.526em;
+	 line-height: 0.931em;
+	 margin: 0px 0px 0.931em 0px;
+}
+
+a {
+	color: $color1;
+}

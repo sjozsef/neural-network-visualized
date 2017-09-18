@@ -1,0 +1,15 @@
+$mobile-max:    480px;
+
+$tablet-max:    800px;
+$tablet-min:    481px;
+
+$desktop-max:   1240px;
+$desktop-min:   801px;
+
+$wide-min:  1241px;
+
+$wrapper-padding:   20px;
+$wrapper-mobile:    $mobile-max - 20px;
+$wrapper-tablet:    768px;
+$wrapper-desktop:   768px;
+$wrapper-wide:      768px;

@@ -1,0 +1,19 @@
+body {
+	background: url( '/images/background.svg' ) center center repeat $white;
+	color: $black;
+	height: 100%;
+}
+
+::selection {
+	background: $color1;
+	color: $white;
+}
+::-moz-selection {
+	background: $color1;
+	color: $white;
+}
+
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
