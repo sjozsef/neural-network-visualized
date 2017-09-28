@@ -32,12 +32,12 @@
                 <line fill="none" :stroke-width="width(6)" :stroke="color(6)" x1="361" y1="48.5" x2="490" y2="140.5" id="svg_16" stroke-linejoin="null" stroke-linecap="null"/>
                 <line fill="none" :stroke-width="width(7)" :stroke="color(7)" x1="362" y1="161.5" x2="482" y2="159.5" id="svg_17" stroke-linejoin="null" stroke-linecap="null"/>
                 <line fill="none" :stroke-width="width(8)" :stroke="color(8)" x1="361" y1="278.5" x2="488" y2="180.5" id="svg_18" stroke-linejoin="null" stroke-linecap="null"/>
-                <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="147.9035" y="99.01692" id="text0" font-size="13" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" xml:space="preserve" stroke="#9ae190">{{roundedActivation(0)}}</text>
-                <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="147.97202" y="236.54279" id="text1" font-size="13" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" xml:space="preserve" stroke="#9ae190">{{ roundedActivation(1) }}</text>
-                <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="332.89063" y="42.76084" id="text2" font-size="13" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" xml:space="preserve" stroke="#9ae190">{{ roundedActivation(2) }}</text>
-                <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="332.89063" y="165.50346" id="text3" font-size="13" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" xml:space="preserve" stroke="#9ae190">{{ roundedActivation(3) }}</text>
-                <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="332.89063" y="291.12703" id="text4" font-size="13" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" xml:space="preserve" stroke="#9ae190">{{ roundedActivation(4) }}</text>
-                <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="511.89063" y="165.51463" id="text5" font-size="13" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" xml:space="preserve" stroke="#9ae190">{{ roundedActivation(5) }}</text>
+                <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="147.9035" y="99.01692" id="text0" font-size="13" text-anchor="middle" xml:space="preserve" stroke="#9ae190">{{roundedActivation(0)}}</text>
+                <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="147.97202" y="236.54279" id="text1" font-size="13" text-anchor="middle" xml:space="preserve" stroke="#9ae190">{{ roundedActivation(1) }}</text>
+                <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="332.89063" y="42.76084" id="text2" font-size="13" text-anchor="middle" xml:space="preserve" stroke="#9ae190">{{ roundedActivation(2) }}</text>
+                <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="332.89063" y="165.50346" id="text3" font-size="13" text-anchor="middle" xml:space="preserve" stroke="#9ae190">{{ roundedActivation(3) }}</text>
+                <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="332.89063" y="291.12703" id="text4" font-size="13" text-anchor="middle" xml:space="preserve" stroke="#9ae190">{{ roundedActivation(4) }}</text>
+                <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="511.89063" y="165.51463" id="text5" font-size="13" text-anchor="middle" xml:space="preserve" stroke="#9ae190">{{ roundedActivation(5) }}</text>
             </g>
 
         </svg>
