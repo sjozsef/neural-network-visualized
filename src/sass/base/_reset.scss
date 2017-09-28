@@ -44,21 +44,3 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	  content: none;
 	} 
 }
-  
-	table { // TODO: refactor this!
-	width: 100%;
-	margin: 2rem auto;
-	border-collapse: collapse;
-	border-spacing: 0;
-	border: 1px solid $black;
-	tr,thead {
-		&:not(:last-child) {
-			border-bottom: 1px solid $black;
-		}
-	}
-	td,th {
-		&:not(:last-child) {
-			border-right: 1px solid black;
-		}
-	}
-}

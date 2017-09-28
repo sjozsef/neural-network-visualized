@@ -1,7 +1,13 @@
-body {
-	background: url( '/images/background.svg' ) center center repeat $white;
-	color: $black;
+body,html {
 	height: 100%;
+}
+
+body {
+	background: radial-gradient(660.29px at 48.72% 45.45%, #365C8F 0%, #1B3559 100%);
+	background-size: contain;
+	color: $white;
+	padding-top: 5vh;
+	box-sizing: border-box;
 }
 
 ::selection {

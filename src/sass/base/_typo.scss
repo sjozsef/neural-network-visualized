@@ -1,7 +1,9 @@
 body {
 	 font-size: 17px;
-	 font-family: "Source Sans Pro", sans-serif;
-	 font-style: normal;
+	 font-family: 'Titillium Web', sans-serif;
+	 line-height: normal;
+	 font-size: 20px;
+	 text-align: center;
 	 font-weight: 400;
 }
 
@@ -15,15 +17,17 @@ div {
 
 h1 {
 	 font-size: 2.85em;
-	 line-height: 2em;
+	 line-height: 1.2em;
 	 text-transform: uppercase;
 	 text-align: center;
+	 font-weight: 700;
+	 margin-bottom: 0.3em;
 }
 
 p {
-	 font-size: 1em;
+	 font-size: 0.9em;
 	 line-height: 1.421em;
-	 margin: 0px 0px 1.421em 0px;
+	 margin: 0px 0px 2em 0px;
 	 text-align: center;
 }
 
@@ -34,5 +38,8 @@ h2 {
 }
 
 a {
-	color: $color1;
+	color: $white;
+	&:hover {
+		// text-decoration: none;
+	}
 }

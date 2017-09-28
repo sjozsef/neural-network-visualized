@@ -3,9 +3,11 @@ import { VisualizableTrainer } from './VisualizableTrainer.js';
 window.Vue = require( 'vue' );
 
 window.Network = new Perceptron(2,3,1);
-window.Trainer = new VisualizableTrainer( Network, 10 );
+window.Trainer = new VisualizableTrainer( Network, 50 );
 
-Trainer.XOR();
+Trainer.XOR({
+    error: 0.00001
+});
 
 Vue.component('visualizer', require('./components/visualizer.vue'));
 

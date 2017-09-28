@@ -151,28 +151,18 @@ q:after {
   content: none;
 }
 
-table {
-  width: 100%;
-  margin: 2rem auto;
-  border-collapse: collapse;
-  border-spacing: 0;
-  border: 1px solid #3f3f3f;
-}
-
-table tr:not(:last-child),
-table thead:not(:last-child) {
-  border-bottom: 1px solid #3f3f3f;
-}
-
-table td:not(:last-child),
-table th:not(:last-child) {
-  border-right: 1px solid black;
+body,
+html {
+  height: 100%;
 }
 
 body {
-  background: url("/images/background.svg") center center repeat white;
-  color: #3f3f3f;
-  height: 100%;
+  background: radial-gradient(660.29px at 48.72% 45.45%, #365C8F 0%, #1B3559 100%);
+  background-size: contain;
+  color: white;
+  padding-top: 5vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 ::-moz-selection {
@@ -197,8 +187,10 @@ select:-moz-focusring {
 
 body {
   font-size: 17px;
-  font-family: "Source Sans Pro", sans-serif;
-  font-style: normal;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: normal;
+  font-size: 20px;
+  text-align: center;
   font-weight: 400;
 }
 
@@ -211,15 +203,17 @@ div {
 
 h1 {
   font-size: 2.85em;
-  line-height: 2em;
+  line-height: 1.2em;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 700;
+  margin-bottom: 0.3em;
 }
 
 p {
-  font-size: 1em;
+  font-size: 0.9em;
   line-height: 1.421em;
-  margin: 0px 0px 1.421em 0px;
+  margin: 0px 0px 2em 0px;
   text-align: center;
 }
 
@@ -230,7 +224,7 @@ h2 {
 }
 
 a {
-  color: #ed7923;
+  color: white;
 }
 
 .wrapper {
@@ -260,5 +254,32 @@ a {
 
 .section {
   margin-bottom: 2rem;
+}
+
+.header {
+  margin: 0 0 6.5vh 0;
+}
+
+.main {
+  margin: 0 0 4vh 0;
+}
+
+.main img {
+  max-width: 100%;
+  height: auto;
+}
+
+.created-by {
+  text-decoration: none;
+}
+
+.created-by__text {
+  font-size: 0.91em;
+}
+
+.created-by__logo {
+  display: inline-block;
+  width: 74px;
+  height: 74px;
 }
 

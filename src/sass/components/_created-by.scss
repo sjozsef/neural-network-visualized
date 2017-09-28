@@ -1,0 +1,14 @@
+.created-by {
+    
+    text-decoration: none;
+
+    &__text {
+        font-size: 0.91em;
+    }
+
+    &__logo {
+        display: inline-block;
+        width: 74px;
+        height: 74px;
+    }
+}
