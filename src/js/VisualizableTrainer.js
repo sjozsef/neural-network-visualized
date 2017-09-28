@@ -23,10 +23,10 @@ export class VisualizableTrainer extends Trainer {
     takeSnapshot() {
         
         let snapshot = {
-            netData: this.network.toJSON(),
-            activations: []  
+            netData: this.network.toJSON()//,
+//            activations: []  
         };
-
+/*
         [
             [0,0],
             [0,1],
@@ -39,7 +39,7 @@ export class VisualizableTrainer extends Trainer {
                 expected: e[0] ^ e[1]
             });
         });
-
+*/
         this.snapshots.push( snapshot );
     }
 }
