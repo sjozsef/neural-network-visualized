@@ -1,0 +1,14 @@
+.progress {
+
+    margin-bottom: 1rem;
+
+    &__slider,
+    &__epoch {
+        text-align: center;
+    }
+
+    &__epoch {
+        opacity: 0.65;
+        font-size: 0.88em;
+    }
+}

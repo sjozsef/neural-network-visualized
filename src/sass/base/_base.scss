@@ -1,12 +1,19 @@
 body,html {
-	height: 100%;
+	min-height: 100%;
 }
 
 body {
-	background: radial-gradient(660.29px at 48.72% 45.45%, #365C8F 0%, #1B3559 100%);
+	background-color: #365c8f; /* Old browsers */
+	background: -moz-linear-gradient(top, #365c8f 0%, #1b3559 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #365c8f 0%,#1b3559 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #365c8f 0%,#1b3559 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#365c8f', endColorstr='#1b3559',GradientType=0 ); /* IE6-9 */
+
 	background-size: contain;
+	background-repeat: no-repeat;
+	
 	color: $white;
-	padding-top: 5vh;
+	padding: 7vh 1rem 0;
 	box-sizing: border-box;
 }
 
